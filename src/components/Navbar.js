@@ -11,7 +11,7 @@ const topnav = {
 
 const a = {
     float: "left",
-    color: "green",
+    color: "grey",
     textAlign: "center",
     textDecoration: "none",
     fontSize: 17,
@@ -24,11 +24,10 @@ const a = {
 function Navbar() {
     return <nav>
             <div className="topnav" style={topnav}>
-               <img url="https://i.pinimg.com/originals/65/e3/79/65e379e79a18f79dcae0cd14307fa60c.jpg"></img>
-               <a className="active" href="#home" style={a}>Home</a>
-               <a href="#news" style={a}>News</a>
-               <a href="#contact" style={a}>Contact</a>
-               <a href="#about" style={a}>About</a>
+               <a className="active" href="#home" style={a}>Shop</a>
+               <a href="#news" style={a}>Ofertas</a>
+               <a href="#contact" style={a}>Nuevos</a>
+               <a href="#about" style={a}>Contacto</a>
              </div>  
            </nav>
 }
