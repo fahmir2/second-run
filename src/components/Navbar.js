@@ -1,7 +1,7 @@
 import React from "react";
 
 const topnav = {
-    backgroundColor: "white",
+    backgroundColor: "black",
     overflow: "hidden",
     textAlign: "right",
     display: "flex",
@@ -11,12 +11,14 @@ const topnav = {
 
 const a = {
     float: "left",
-    color: "grey",
+    color: "white",
     textAlign: "center",
     textDecoration: "none",
     fontSize: 17,
     padding: 15,
 }
+
+
 
 
 
