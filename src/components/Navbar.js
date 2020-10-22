@@ -1,7 +1,9 @@
 import React from "react";
+import CartWidget from "./CartWidget";
+
 
 const topnav = {
-    backgroundColor: "black",
+    backgroundColor: "#212121",
     overflow: "hidden",
     textAlign: "right",
     display: "flex",
@@ -19,17 +21,14 @@ const a = {
 }
 
 
-
-
-
-
 function Navbar() {
     return <nav>
             <div className="topnav" style={topnav}>
-               <a className="active" href="#home" style={a}>Shop</a>
-               <a href="#news" style={a}>Ofertas</a>
-               <a href="#contact" style={a}>Nuevos</a>
-               <a href="#about" style={a}>Contacto</a>
+               <a className="active" href="#home" style={a}>Acción</a>
+               <a href="#news" style={a}>Terror</a>
+               <a href="#contact" style={a}>Thriller</a>
+               <a href="#about" style={a}>Sci-fi</a>
+               <CartWidget/>
              </div>  
            </nav>
 }
