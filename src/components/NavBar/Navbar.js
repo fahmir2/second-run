@@ -1,5 +1,5 @@
 import React from "react";
-import CartWidget from "./CartWidget";
+import CartWidget from "../CartWidget/CartWidget";
 
 
 const topnav = {
@@ -21,13 +21,15 @@ const a = {
 }
 
 
+
+
 function Navbar() {
     return <nav>
             <div className="topnav" style={topnav}>
                <a className="active" href="#home" style={a}>Acción</a>
-               <a href="#news" style={a}>Terror</a>
-               <a href="#contact" style={a}>Thriller</a>
-               <a href="#about" style={a}>Sci-fi</a>
+               <a href="#terror" style={a}>Terror</a>
+               <a href="#thriller" style={a}>Thriller</a>
+               <a href="#sci-fi" style={a}>Sci-fi</a>
                <CartWidget/>
              </div>  
            </nav>
