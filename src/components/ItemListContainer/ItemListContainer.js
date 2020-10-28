@@ -5,11 +5,13 @@ const contStyle = {
 }
 
 function ItemListContainer( {Title}) {
-    return  <div className="container" style={contStyle}>
+    return <> 
+            <div className="container" style={contStyle}>
                 <p>
                     Los mejores VHS de {Title} del condado
                 </p>
             </div>
+        </>
 }
 
 export default ItemListContainer;

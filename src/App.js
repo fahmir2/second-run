@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './components/NavBar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
+import ItemCount from './components/ItemCount/ItemCount';
+
 
 
 
@@ -14,7 +16,7 @@ function App() {
         
         <Navbar />
         <ItemListContainer Title="Acción" />
-          
+        <ItemCount stockMax={8} initial={1} amount={1} />  
    </div>
   );
 }
